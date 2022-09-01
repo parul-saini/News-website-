@@ -1,3 +1,5 @@
+// Created a news website by using NEWS API which display the headlines by clicking on that particular link you can get more information about that particular headline.
+
 // e1ec161d4452493abb9b8bbfee104080
 //https://newsapi.org/v2/top-headlines?country=in&apiKey=e1ec161d4452493abb9b8bbfee104080
 
