@@ -1,10 +1,10 @@
 // Created a news website by using NEWS API which display the headlines by clicking on that particular link you can get more information about that particular headline.
 
-//https://newsapi.org/v2/top-headlines?country=in&apiKey=e1ec161d4452493abb9b8bbfee104080
+// https://gnews.io/api/v4/search?q=headlines&lang=en&token=1ac1bcb982a05b4845f261e59e184548
 
 
 // Initialize the news api parameters
-const apikey="e1ec161d4452493abb9b8bbfee104080";
+const apikey="1ac1bcb982a05b4845f261e59e184548";
 
 
 // Grab the news container
@@ -13,7 +13,7 @@ let newsaccordion =document.getElementById("newsaccordion");
 // Create an ajax get request
 const xhr= new XMLHttpRequest();
 
-xhr.open('GET',`https://newsapi.org/v2/top-headlines?country=in&apiKey=${apikey}`,true);
+xhr.open('GET',`https://gnews.io/api/v4/search?q=headlines&lang=en&country=in&token=${apikey}`,true);
 
 xhr.onload=function(){
     if(this.status=== 200){
