@@ -1,10 +1,11 @@
-// e1ec161d4452493abb9b8bbfee104080
+// Created a news website by using NEWS API which display the headlines by clicking on that particular link you can get more information about that particular headline.
+
 //https://newsapi.org/v2/top-headlines?country=in&apiKey=e1ec161d4452493abb9b8bbfee104080
-console.log("hello this is news website ");
 
 
 // Initialize the news api parameters
 const apikey="e1ec161d4452493abb9b8bbfee104080";
+
 
 // Grab the news container
 let newsaccordion =document.getElementById("newsaccordion");
@@ -50,7 +51,7 @@ xhr.onload=function(){
     }
 }
 
+// What to do when response is ready
 xhr.send();
 
-// What to do when response is ready
 
